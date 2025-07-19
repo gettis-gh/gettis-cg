@@ -1,0 +1,36 @@
+car {
+        config: {
+                width: 0,
+                height: 0
+        },
+        state: {
+                position_x: 0,
+                position_y: 0,
+                angle: 0,
+
+                velocity_x: 0,
+                velocity_y: 0,
+                velocity_angular: 0
+        }
+}
+
+{
+        index: 0,
+        type: "car",
+        changed: {
+                check: true,
+                author: ''
+        },
+        config: {
+                width: 10,
+                height: 15
+        },
+        state: {
+                position_x: 0,
+                position_y: 0,
+                angle: 0,
+                velocity_x: 0,
+                velocity_y: 0,
+                angular_velocity: 0
+        }
+}

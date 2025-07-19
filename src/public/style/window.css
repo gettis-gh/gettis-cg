@@ -1,0 +1,35 @@
+.window {
+    --header-height: 40px;
+    padding: 10px;
+}
+
+.window {
+    min-height: var(--header-height);
+    resize: both;
+
+    position: absolute;
+    top: calc(100% - 280px);
+    right: 0px;
+    width: 300px;
+    min-width: 200px;
+    min-height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.window .header {
+    height: var(--header-height);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.window .header .tools {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 100%;
+}

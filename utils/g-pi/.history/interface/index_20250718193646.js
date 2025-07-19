@@ -1,0 +1,3 @@
+export function analyze({ path, ignore=[], include=[] }) {
+  if (!validPath(path)) return;
+}

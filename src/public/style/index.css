@@ -1,0 +1,48 @@
+.csl {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    aspect-ratio: 4/3;
+    max-width: 100%;
+    margin: auto;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.csl__ip {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.csl__ip input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.csl__ip button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.csl__ip button:hover {
+    background-color: #45a049;
+}
+
+.csl__op {
+    flex: 1;
+    border: 1px solid #ddd;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.csl__op__l {
+    font-size: 16px;
+}

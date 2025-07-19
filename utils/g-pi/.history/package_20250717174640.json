@@ -1,0 +1,30 @@
+{
+  "name": "g-psa",
+  "version": "1.0.0",
+  "description": "Getti's Project Inspector",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "cli",
+    "code",
+    "analyzer",
+    "statistics",
+    "metrics",
+    "loc",
+    "code-stats",
+    "devtool",
+    "productivity",
+    "filesystem",
+    "project",
+    "npx",
+    "repo",
+    "getti",
+    "gettis",
+    "gettis-tool",
+    "g-psa"
+  ],
+  "author": "Getti",
+  "license": "ISC"
+}
